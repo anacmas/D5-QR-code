@@ -1,0 +1,30 @@
+body {
+    background-color: #d5e1ef;
+    font-family: 'Montserrat', sans-serif;
+    align-self: center;
+}
+
+.container-branco {
+    background-color: #FFFFFF;
+    width: 25%;
+    padding: 2%;
+    max-width: 270px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.qr-code {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.texto p {
+    font-weight: 400;
+    font-size: 0.9rem;
+}
