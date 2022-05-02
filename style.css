@@ -1,7 +1,10 @@
 body {
     background-color: #d5e1ef;
     font-family: 'Montserrat', sans-serif;
-    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4%;
 }
 
 .container-branco {
@@ -24,7 +27,37 @@ h1 {
     font-size: 1.2rem;
 }
 
+.texto {
+    text-align: center;
+}
+
 .texto p {
     font-weight: 400;
     font-size: 0.9rem;
+}
+
+footer {
+    margin-top: 5%;
+    font-size: 10px;
+    color: #5c5464;
+}
+
+footer a {
+    color: #5c5464;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #774ea0;
+}
+
+footer a:active {
+    color: #a495b3;
+}
+
+@media (max-width: 720px) {
+    .container-branco {
+        width: 80%;
+        padding: 1rem;
+    }
 }
