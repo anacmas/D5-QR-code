@@ -1,3 +1,4 @@
-Preview da página:
+Desafio de criar uma página para um qr code do <a href="https://www.frontendmentor.io/">Frontend mentor</a>
 
-https://anacmas.github.io/D.5/
+Preview da página:
+https://anacmas.github.io/qr-code-page/
